@@ -1,6 +1,9 @@
+streamlit
 pandas
-numpy
-matplotlib
-seaborn
-pickle5
+whois
+tldextract
+urllib3
+requests
+ipwhois
 scikit-learn
+xgboost
