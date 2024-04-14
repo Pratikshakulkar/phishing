@@ -19,7 +19,7 @@ def get_model():
     return phishing_url_detector
 
 st.title("Phishing Website Detector")
-st.header("Are you sure your 'bank' sent that link?")
+st.header("Are you sure you want to check sent the link?")
 
 # Takes in user input
 input_url = st.text_area("Put in your sus site link here: ")
