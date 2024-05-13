@@ -244,21 +244,7 @@ class ExtractFeatures:
             new_dataset['email_in_url'] = int(False)
 
         ip_addresses = socket.getaddrinfo(domain, None)
-        import socket
-
-domain = "example.com"  # Replace "example.com" with the domain name you want to look up
-
-# Get address information for the specified domain
-ip_addresses = socket.getaddrinfo(domain, None)
-
-# Iterate through the list of address information
-for addr_info in ip_addresses:
-    family, socktype, proto, canonname, sockaddr = addr_info
-    print("Family:", family)
-    print("Socket Type:", socktype)
-    print("Protocol:", proto)
-    print("Canonical Name:", canonname)
-    print("Socket Address:", sockaddr)
+        
 
        
         
