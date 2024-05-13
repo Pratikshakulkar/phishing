@@ -244,6 +244,9 @@ class ExtractFeatures:
             new_dataset['email_in_url'] = int(False)
 
         ip_addresses = socket.getaddrinfo(domain, None)
+         print("IP addresses:", ip_addresses)
+           except socket.gaierror as e:
+        print("Error resolving domain:", e)
         
         # Get the ASN of the IP address
         try:
