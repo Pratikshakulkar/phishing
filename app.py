@@ -51,7 +51,7 @@ if input_url != "":
 
     except Exception as e:
         print(e)
-        st.error("close!")
+        st.error("stay safe!")
 
 else:
     st.write("")
